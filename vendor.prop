@@ -224,6 +224,7 @@ vendor.gralloc.disable_ubwc=0
 persist.log.tag.OpenGLRenderer=S
 
 # Media
+debug.stagefright.c2inputsurface=-1
 media.stagefright.thumbnail.prefer_hw_codecs=true
 ro.config.vc_call_vol_steps=11
 
