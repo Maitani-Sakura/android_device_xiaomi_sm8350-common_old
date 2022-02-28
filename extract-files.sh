@@ -78,6 +78,9 @@ function blob_fixup() {
         vendor/etc/init/vendor.xiaomi.sensor.communicate@1.0-service.rc)
             sed -i "/    group system/ a\    disabled" "${2}"
             ;;
+        vendor/etc/qcril_database/upgrade/config/10.0_config.sql)
+            sed -i '/persist.vendor.radio.redir_party_num/ s/true/false/g' "${2}"
+            ;;
 
     esac
 }
