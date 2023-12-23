@@ -73,7 +73,7 @@ DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
     $(COMMON_PATH)/hidl/vendor_framework_compatibility_matrix.xml \
     $(COMMON_PATH)/hidl/xiaomi_framework_compatibility_matrix.xml \
     $(COMMON_PATH)/hidl/framework_compatibility_matrix.xml \
-    vendor/evolution/config/device_framework_matrix.xml \
+    vendor/aosp/config/device_framework_matrix.xml \
     hardware/qcom-caf/common/vendor_framework_compatibility_matrix.xml
 
 DEVICE_MANIFEST_FILE := \
@@ -143,7 +143,7 @@ BOARD_VENDOR_DLKMIMAGE_FILE_SYSTEM_TYPE := ext4
 
 BOARD_EROFS_COMPRESSOR := lz4
 BOARD_EROFS_PCLUSTER_SIZE := 262144
--include vendor/lineage/config/BoardConfigReservedSize.mk
+-include vendor/aosp/config/BoardConfigReservedSize.mk
 BOARD_SYSTEM_EXTIMAGE_PARTITION_RESERVED_SIZE := 104857600
 BOARD_VENDORIMAGE_PARTITION_RESERVED_SIZE := 104857600
 
