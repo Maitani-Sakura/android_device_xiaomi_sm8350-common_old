@@ -33,6 +33,3 @@ ro.vendor.aware_available          u:object_r:vendor_aware_available_prop:s0
 
 # Thermal
 vendor.sys.thermal.                     u:object_r:vendor_xm_thermal_prop:s0
-
-# Power
-vendor.powerhal.                        u:object_r:vendor_power_prop:s0
