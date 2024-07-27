@@ -411,10 +411,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     com.android.nfc_extras \
     NfcNci \
+    SecureElement \
     Tag
 
 PRODUCT_PACKAGES += \
-    android.hardware.nfc-service.nxp \
+    android.hardware.nfc@1.2-service \
     android.hardware.secure_element@1.2.vendor \
     libchrome.vendor
 
