@@ -13,13 +13,8 @@ LOCAL_SYSTEM_EXT_MODULE := true
 
 LOCAL_USE_AAPT2 := true
 
-LOCAL_OPTIONAL_USES_LIBRARIES := \
-    androidx.window.extensions \
-    androidx.window.sidecar
-
 LOCAL_STATIC_ANDROID_LIBRARIES := \
-    androidx.core_core \
-    androidx.preference_preference \
+    org.lineageos.settings.resources \
     SettingsLib
 
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
